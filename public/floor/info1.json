@@ -1,0 +1,68 @@
+{
+    "buildingId": "8260149d-4cca-482b-972f-ae9f700f4503",
+    "normFloorId": "9e93da0f-d616-4563-92da-3a4d004f347b",
+    "floors": [
+        {
+            "id": "9e93da0f-d616-4563-92da-3a4d004f347b",
+            "floorName": "01楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/4dacf4ee-9912-4434-b454-d7303469e465.png",
+            "imageName": "logistics1.png",
+            "origin": [
+                -14.989965,
+                -26.438116
+            ],
+            "resolution": 0.05,
+            "imageWidth": 1222,
+            "imageHeight": 877,
+            "elevators": [
+                {
+                    "id": "1262dd55-0c70-4121-8bb3-3ae37711b2b7",
+                    "indoorCoordinates": [
+                        -1.2614786162579348,
+                        -2.853210381064638,
+                        0,
+                        -0.08492663955195406,
+                        0,
+                        0,
+                        -0.04806934130568245,
+                        0.9988440010464286
+                    ],
+                    "name": "01楼/A#23/候梯区",
+                    "abbreviation": "A#23/候梯区"
+                }
+            ]
+        },
+        {
+            "id": "bb4fd604-85a7-4f50-b590-930be3958d80",
+            "floorName": "A栋/05楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/adb8f642-6090-4346-94d1-8bf2a3a0134b.png",
+            "imageName": "logistics2.png",
+            "origin": [
+                -13.728090,
+                -14.742770
+            ],
+            "resolution": 0.05,
+            "imageWidth": 615,
+            "imageHeight": 511,
+            "elevators": [
+                {
+                    "id": "3a21d1c4-ca6b-45d1-a44e-be1ad6ffb25a",
+                    "waypointType": "HOLD",
+                    "areaWaypointId": "d3dbc2a3-07c0-4938-9645-fbeed08b2729",
+                    "indoorCoordinates": [
+                        1.0451259284617702,
+                        -6.443555344819701,
+                        0,
+                        0.4766025314057259,
+                        0,
+                        0,
+                        0.23654171377587044,
+                        0.9716213344940374
+                    ],
+                    "name": "A栋/05楼/A#23/候梯区",
+                    "abbreviation": "A#23/候梯区"
+                }
+            ]
+        }
+    ]
+}

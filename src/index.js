@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ABC from './Scene/abc.tsx'
+import Scene from './Scene/index.tsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Scene />
+
+    {/* <GisThree></GisThree> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

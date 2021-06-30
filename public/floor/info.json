@@ -1,0 +1,183 @@
+{
+    "buildingId": "8260149d-4cca-482b-972f-ae9f700f4503",
+    "normFloorId":"9e93da0f-d616-4563-92da-3a4d004f347b",
+    "floors": [
+        {
+            "id": "9e93da0f-d616-4563-92da-3a4d004f347b",
+            "floorName": "01楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/4dacf4ee-9912-4434-b454-d7303469e465.png",
+            "imageName": "floor011.png",
+            "origin": [
+                -27.779623,
+                -46.937244
+              ],
+              "resolution": 0.05,
+              "imageWidth": 1854,
+              "imageHeight": 3477,
+            "elevators": [
+                {
+                    "id":"1262dd55-0c70-4121-8bb3-3ae37711b2b7",
+                    "indoorCoordinates": [
+                        0.062229579360888465,
+                        -0.08405070261758851,
+                        0,
+                        0.031260143839263156,
+                        0,
+                        0,
+                        0.015629435525195745,
+                        0.9998778529126264
+                      ],
+                      "name": "01楼/A#23/候梯区",
+                      "abbreviation": "A#23/候梯区"
+                },
+                 {
+                    "id": "8298c963-11ac-4ead-904a-00ff63e78949",
+                    "waypointType": "HOLD",
+                    "indoorCoordinates": [
+                        47.74102775004413,
+                        63.43543673696132,
+                        0,
+                        -3.0947359966999843,
+                        0,
+                        0,
+                        0.9997255692660955,
+                        -0.02342618525456897
+                      ],
+                      "name": "01楼/B#05/候梯区",
+                      "abbreviation": "B#05/候梯区"
+                }
+            ]
+        },
+
+        {
+            "id": "bb4fd604-85a7-4f50-b590-930be3958d80",
+            "floorName": "A栋/05楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/adb8f642-6090-4346-94d1-8bf2a3a0134b.png",
+            "imageName": "floorA5.png",
+            "origin": [
+                -26.377036,
+                -46.689941
+              ],
+              "resolution": 0.05,
+              "imageWidth": 867,
+              "imageHeight": 2032,
+            "elevators": [
+                {
+                    "id": "3a21d1c4-ca6b-45d1-a44e-be1ad6ffb25a",
+                    "waypointType": "HOLD",
+                    "areaWaypointId": "d3dbc2a3-07c0-4938-9645-fbeed08b2729",
+                    "indoorCoordinates": [
+                        -0.08311291743763505,
+                        -0.01963992265243064,
+                        0,
+                        0.07478047552639336,
+                        0,
+                        0,
+                        0.03738152626056389,
+                        0.999301066493192
+                      ],
+                      "name": "A栋/05楼/A#23/候梯区",
+                      "abbreviation": "A#23/候梯区"
+                }
+            ]
+        },
+                   {
+            "id": "81b6a995-f444-4fab-88f0-268207e3fe1c",
+            "floorName": "A栋/06楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/3ad89c79-55eb-4222-a03b-4bfc333e45a7.png",
+            "imageName": "floorA6.png",
+             "origin": [
+                -20.606076,
+                -46.447696
+             ],
+                "resolution": 0.05,
+                "imageWidth": 441,
+                "imageHeight": 991,
+            "elevators": [
+                {
+                    "id": "3a21d1c4-ca6b-45d1-a44e-be1ad6ffb25a",
+                    "waypointType": "HOLD",
+                    "areaWaypointId": "d3dbc2a3-07c0-4938-9645-fbeed08b2729",
+                    "indoorCoordinates": [
+                        -0.2607696143435838,
+        -0.028628406414100027,
+        0,
+        0.056883057914263055,
+        0,
+        0,
+        0.028437694622585222,
+        0.9995955669792421
+      ],
+      "name": "A栋/06楼/A#23/候梯区",
+      "abbreviation": "A#23/候梯区"
+                }
+            ]
+        },
+       {
+            "id": "e4418eab-4621-49cf-830d-b514da2a7ac7",
+            "floorName": "A栋/04楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/80abca97-a4f9-4924-8b20-ed9aa40a2977.png",
+            "imageName": "floorA4.png",
+            "origin": [
+                -31.662775,
+                -48.322577
+              ],
+              "resolution": 0.05,
+              "imageWidth": 715,
+              "imageHeight": 1971,
+            "elevators": [
+                {
+                    "id": "3a21d1c4-ca6b-45d1-a44e-be1ad6ffb25a",
+                    "waypointType": "HOLD",
+                    "areaWaypointId": "d3dbc2a3-07c0-4938-9645-fbeed08b2729",
+                    "indoorCoordinates": [
+                        -0.09004474040416,
+                        -0.04213458223311051,
+                        0,
+                        0.1287042872951967,
+                        0,
+                        0,
+                        0.06430773701113063,
+                        0.9979301152688534
+                      ],
+                      "name": "A栋/04楼/A#23/候梯区",
+                      "abbreviation": "A#23/候梯区"
+                }
+            ]
+        },
+   
+         
+        {
+            "id": "3101bcac-6914-4c2c-a833-b5dbe8b75d2b",
+            "floorName": "B栋/03楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/044c9cdc-900c-4dc4-8f0c-5e081477bd2b.png",
+            "imageName": "floorB3.png",
+            "origin": [
+                -9.977203,
+                -71.255237
+              ],
+              "resolution": 0.05,
+              "imageWidth": 533,
+              "imageHeight": 1484,
+            "elevators": [
+                {
+                    "id": "8298c963-11ac-4ead-904a-00ff63e78949",
+                    "waypointType": "HOLD",
+                    "indoorCoordinates": [
+                        0.02605888179240612,
+                        0.05390421254176214,
+                        0,
+                        0.015425358478539566,
+                        0,
+                        0,
+                        0.007712602774168552,
+                        0.9999702574369139
+                      ],
+                    
+                      "name": "B栋/03楼/B#05/候梯区",
+                      "abbreviation": "B#05/候梯区"
+                }
+            ]
+        }
+    ]
+}
