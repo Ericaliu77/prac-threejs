@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ABC from './Scene/abc.tsx'
+import WebGPUTest from './WebGPU/WebGPUTest'
 import Scene from './Scene/index.tsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Scene />
-
+    <WebGPUTest />
+{/* <TextGojs/> */}
     {/* <GisThree></GisThree> */}
   </React.StrictMode>,
   document.getElementById('root')

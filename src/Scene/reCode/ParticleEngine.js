@@ -12,7 +12,7 @@
 //      can only be used in vertex shader
 // varying: used to communicate data from vertex shader to fragment shader
 // uniform: data that is the same for each particle (such as texture)
-import * as THREE from 'three'
+// import * as THREE from 'three'
 import { Tween } from "./Tween"
 
 const particleVertexShader =

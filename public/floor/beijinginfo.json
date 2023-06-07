@@ -1,0 +1,59 @@
+{
+    "buildingId": "8260149d-4cca-482b-972f-ae9f700f4503",
+    "normFloorId": "3e0a480a-8b2b-4750-b461-8ee81cfce208",
+    "floors": [
+        {
+            "id": "3e0a480a-8b2b-4750-b461-8ee81cfce208",
+            "floorName": "01楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/123bea42-f1f9-4c58-869a-11403058c97e/4dacf4ee-9912-4434-b454-d7303469e465.png",
+            "imageName": "logistics1.png",
+            "origin": [
+                -14.989965,
+                -26.438116
+            ],
+            "resolution": 0.05,
+            "imageWidth": 800,
+            "imageHeight": 800,
+            "elevators": [
+                {
+                    "id": "1262dd55-0c70-4121-8bb3-3ae37711b2b7",
+                    "indoorCoordinates": [12.921947716739993,19.78771936279226,0.0,1.5707963267948988,0.0,0.0,0.7071067811865482,0.7071067811865468],
+                    "name": "01楼/A#23/候梯区",
+                    "abbreviation": "A#23/候梯区"
+                }
+            ]
+        },
+        {
+            "id": "67cbc0d6-f3b4-447b-b07e-50bca6a48efa",
+            "floorName": "02楼",
+            "imageUrl": "https://cti-device-map.oss-cn-shenzhen.aliyuncs.com/production/117b2f2b-c6a6-4ef3-bb9a-cbd0b8d3faab/7172da1a-bb5d-48ed-80e4-109bfc788dc0.png",
+            "imageName": "logistics2.png",
+            "origin": [
+                -20.688055,
+                -8.982080000000002
+            ],
+            "resolution": 0.05,
+            "imageWidth": 800,
+            "imageHeight": 800,
+            "elevators": [
+                {
+                    "id": "3a21d1c4-ca6b-45d1-a44e-be1ad6ffb25a",
+                    "waypointType": "HOLD",
+                    "areaWaypointId": "d3dbc2a3-07c0-4938-9645-fbeed08b2729",
+                    "indoorCoordinates": [
+                        12.839116784392246,
+                        20.320290624881984,
+                        0.0,
+                        1.57,
+                        0.0,
+                        0.0,
+                        0.706825181105366,
+                        0.7073882691671998
+                    ],
+                    "name": "A栋/05楼/A#23/候梯区",
+                    "abbreviation": "A#23/候梯区"
+                }
+            ]
+        }
+    ]
+}

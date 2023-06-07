@@ -1,0 +1,1443 @@
+[
+    {
+        "id": "0c8054fc-c371-40c0-9adc-257203432031",
+        "triggerType": "OFFLINE",
+        "triggerId": "5b4582a0-fe31-4e7e-9a37-ae43814b0d4f",
+        "serialNumber": "20201201184310",
+        "entityType": "ROBOT",
+        "entitySeries": "SUNLIGHT",
+        "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+        "entityName": "环卫#311机",
+        "entity": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "环卫#311机",
+            "specification": {
+                "productGroup": "SUNLIGHT",
+                "productLine": "SUNLIGHT_SANITATION",
+                "productCategory": "ROBOT",
+                "productPurposes": [
+                    "GARBAGE",
+                    "SWEEPING"
+                ],
+                "deviceType": "SRST11",
+                "summary": "阳光无人环卫车",
+                "description": "阳光无人环卫车1.1",
+                "robotType": "SRST11",
+                "capacity": 2,
+                "indoor": false,
+                "embedded": false,
+                "chargeable": true,
+                "chargerType": "OUTDOOR",
+                "restorable": true,
+                "restoreDockTypes": [
+                    "WATER"
+                ]
+            },
+            "robotType": "SRST11",
+            "robotSeries": "SUNLIGHT",
+            "macAddress": "78:d0:04:29:48:25",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+        },
+        "status": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "entityType": "ROBOT",
+            "operationStatus": "INACTIVE",
+            "navigationState": "MANUAL_CONTROL",
+            "navigationStateDetail": "IDLE",
+            "navigationStateCode": 0,
+            "localIp": "10.42.0.1",
+            "location": [
+                22.576773521813433,
+                113.94303740743622
+            ],
+            "indoorLocation": [
+                170.27467555638765,
+                -24.092567762336454
+            ],
+            "qianxunLocation": [
+                0.0,
+                0.0
+            ],
+            "coordinates": [
+                170.27467555638765,
+                -24.092567762336454,
+                -5.1449741516005085,
+                -1.5253852605819702,
+                -3.176575176383533E-4,
+                0.0039611929367622,
+                -0.6908595343803043,
+                0.722978085283398
+            ],
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "targetLocation": [
+                0.0,
+                0.0
+            ],
+            "altitude": -5.1449741516005085,
+            "direction": 177.0,
+            "speed": 0.0,
+            "battery": {
+                "percentage": 38.0,
+                "charging": false
+            },
+            "tanks": [
+                {
+                    "tankType": "CLEAN",
+                    "percentage": 0.0
+                },
+                {
+                    "tankType": "WASTE",
+                    "percentage": 0.0
+                }
+            ],
+            "command": {
+                "commandIds": []
+            },
+            "errorCode": 2,
+            "cellular": {
+                "operator": "46004",
+                "signal": 87
+            },
+            "wifi": {
+                "interfaceName": "wlx7cdd9061d8e4",
+                "macAddress": "7C:DD:90:61:D8:E4",
+                "connected": true,
+                "auto": true,
+                "mode": "AP",
+                "ssid": "4W4D-WiFi-311",
+                "bssid": "7C:DD:90:61:D8:E4",
+                "signal": 0
+            },
+            "pathLocations": [],
+            "details": {
+                "systemStartupTime": 1628504667287
+            },
+            "contexts": [],
+            "updateTime": 1628505291484,
+            "navigationStateSince": 1628505223327,
+            "simulated": false,
+            "mileage": 170447.0,
+            "volume": 20,
+            "emergencyStopEngaged": false,
+            "jackRaised": true,
+            "softwareVersions": [
+                {
+                    "version": "v3.51.210804",
+                    "softwareType": "NAVIGATION_MAIN"
+                },
+                {
+                    "version": "1.2.1a",
+                    "softwareType": "NAVIGATION_CLOUD_AGENT"
+                }
+            ],
+            "coreVersion": "1.2.1a",
+            "navigationVersion": "v3.51.210804"
+        },
+        "alertTime": 1628505570001,
+        "alertHandleType": "SITE",
+        "duration": 278517,
+        "message": "离线状态超过【5分钟】",
+        "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+        "hub": {
+            "id": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "万科云城",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "themeBackground": "https://cti-device-resource-store-prod.oss-cn-shanghai.aliyuncs.com/console-web/9e90d7310-959c-4948-bf09-c67e93600848-1625232066962"
+        },
+        "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+        "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+        "building": {
+            "id": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "name": "7栋B座",
+            "mapFileDirectory": "wankeyuncheng_7B"
+        },
+        "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+        "floor": {
+            "id": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "name": "户外",
+            "fullName": "7栋B座/户外",
+            "forbidden": false
+        },
+        "location": [
+            22.576773521813433,
+            113.94303740743622
+        ],
+        "indoorLocation": [
+            170.27467555638765,
+            -24.092567762336454
+        ],
+        "direction": 177.0,
+        "silenced": false,
+        "createdTime": 1628505570062,
+        "lastModifiedTime": 1628505570062,
+        "summary": "离线状态超过【5分钟】"
+    },
+    {
+        "id": "7e887e9f-9498-4f58-8b9c-3cc4fbd3f9da",
+        "triggerType": "OFFLINE",
+        "triggerId": "5b4582a0-fe31-4e7e-9a37-ae43814b0d4f",
+        "serialNumber": "20201201184310",
+        "entityType": "ROBOT",
+        "entitySeries": "SUNLIGHT",
+        "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+        "entityName": "环卫#311机",
+        "entity": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "环卫#311机",
+            "specification": {
+                "productGroup": "SUNLIGHT",
+                "productLine": "SUNLIGHT_SANITATION",
+                "productCategory": "ROBOT",
+                "productPurposes": [
+                    "GARBAGE",
+                    "SWEEPING"
+                ],
+                "deviceType": "SRST11",
+                "summary": "阳光无人环卫车",
+                "description": "阳光无人环卫车1.1",
+                "robotType": "SRST11",
+                "capacity": 2,
+                "indoor": false,
+                "embedded": false,
+                "chargeable": true,
+                "chargerType": "OUTDOOR",
+                "restorable": true,
+                "restoreDockTypes": [
+                    "WATER"
+                ]
+            },
+            "robotType": "SRST11",
+            "robotSeries": "SUNLIGHT",
+            "macAddress": "78:d0:04:29:48:25",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+        },
+        "status": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "entityType": "ROBOT",
+            "operationStatus": "INACTIVE",
+            "navigationState": "IDLE",
+            "navigationStateDetail": "IDLE",
+            "navigationStateCode": 0,
+            "localIp": "10.42.0.1",
+            "location": [
+                22.57676773503009,
+                113.94303935887721
+            ],
+            "indoorLocation": [
+                170.47504420471535,
+                -24.736026502330436
+            ],
+            "qianxunLocation": [
+                0.0,
+                0.0
+            ],
+            "coordinates": [
+                170.47504420471535,
+                -24.736026502330436,
+                -5.13512009536008,
+                -1.4104791879653933,
+                0.015018194427090285,
+                0.006533647713422468,
+                -0.6482100062080894,
+                0.7612854610035684
+            ],
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "targetLocation": [
+                0.0,
+                0.0
+            ],
+            "altitude": -5.13512009536008,
+            "direction": 171.0,
+            "speed": 0.0,
+            "battery": {
+                "percentage": 39.0,
+                "charging": false
+            },
+            "tanks": [
+                {
+                    "tankType": "CLEAN",
+                    "percentage": 0.0
+                },
+                {
+                    "tankType": "WASTE",
+                    "percentage": 0.0
+                }
+            ],
+            "command": {
+                "commandIds": []
+            },
+            "errorCode": 2,
+            "cellular": {
+                "operator": "46004",
+                "signal": 93
+            },
+            "wifi": {
+                "interfaceName": "wlx7cdd9061d8e4",
+                "macAddress": "7C:DD:90:61:D8:E4",
+                "connected": true,
+                "auto": true,
+                "mode": "AP",
+                "ssid": "4W4D-WiFi-311",
+                "bssid": "7C:DD:90:61:D8:E4",
+                "signal": 0
+            },
+            "pathLocations": [],
+            "details": {
+                "systemStartupTime": 1628503916287
+            },
+            "contexts": [],
+            "updateTime": 1628504327188,
+            "navigationStateSince": 1628502456082,
+            "simulated": false,
+            "mileage": 170434.0,
+            "volume": 20,
+            "emergencyStopEngaged": false,
+            "jackRaised": true,
+            "softwareVersions": [
+                {
+                    "version": "v3.51.210804",
+                    "softwareType": "NAVIGATION_MAIN"
+                },
+                {
+                    "version": "1.2.1a",
+                    "softwareType": "NAVIGATION_CLOUD_AGENT"
+                }
+            ],
+            "coreVersion": "1.2.1a",
+            "navigationVersion": "v3.51.210804"
+        },
+        "alertTime": 1628504610001,
+        "alertHandleType": "SITE",
+        "duration": 282813,
+        "message": "离线状态超过【5分钟】",
+        "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+        "hub": {
+            "id": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "万科云城",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "themeBackground": "https://cti-device-resource-store-prod.oss-cn-shanghai.aliyuncs.com/console-web/9e90d7310-959c-4948-bf09-c67e93600848-1625232066962"
+        },
+        "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+        "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+        "building": {
+            "id": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "name": "7栋B座",
+            "mapFileDirectory": "wankeyuncheng_7B"
+        },
+        "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+        "floor": {
+            "id": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "name": "户外",
+            "fullName": "7栋B座/户外",
+            "forbidden": false
+        },
+        "location": [
+            22.57676773503009,
+            113.94303935887721
+        ],
+        "indoorLocation": [
+            170.47504420471535,
+            -24.736026502330436
+        ],
+        "direction": 171.0,
+        "silenced": false,
+        "createdTime": 1628504610073,
+        "lastModifiedTime": 1628504610073,
+        "summary": "离线状态超过【5分钟】"
+    },
+    {
+        "id": "5750a215-9658-4a3a-a275-2426b4f24bd8",
+        "triggerType": "TIMEOUT",
+        "triggerId": "22d701a8-b7b1-4df0-a483-2e586c0c41b7",
+        "serialNumber": "20210422213445",
+        "entityType": "ROBOT",
+        "entitySeries": "SUNLIGHT",
+        "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+        "entityName": "环卫#311机",
+        "entity": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "环卫#311机",
+            "specification": {
+                "productGroup": "SUNLIGHT",
+                "productLine": "SUNLIGHT_SANITATION",
+                "productCategory": "ROBOT",
+                "productPurposes": [
+                    "GARBAGE",
+                    "SWEEPING"
+                ],
+                "deviceType": "SRST11",
+                "summary": "阳光无人环卫车",
+                "description": "阳光无人环卫车1.1",
+                "robotType": "SRST11",
+                "capacity": 2,
+                "indoor": false,
+                "embedded": false,
+                "chargeable": true,
+                "chargerType": "OUTDOOR",
+                "restorable": true,
+                "restoreDockTypes": [
+                    "WATER"
+                ]
+            },
+            "robotType": "SRST11",
+            "robotSeries": "SUNLIGHT",
+            "macAddress": "78:d0:04:29:48:25",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+        },
+        "status": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "entityType": "ROBOT",
+            "operationStatus": "IN_USE",
+            "navigationState": "CONGESTION",
+            "navigationStateDetail": "SPACEROAD",
+            "navigationStateCode": 11,
+            "localIp": "10.42.0.1",
+            "location": [
+                22.576754597064557,
+                113.9430414419131
+            ],
+            "indoorLocation": [
+                170.68893329803498,
+                -26.19689927534902
+            ],
+            "qianxunLocation": [
+                0.0,
+                0.0
+            ],
+            "coordinates": [
+                170.68893329803498,
+                -26.19689927534902,
+                -5.085382427119974,
+                -1.4868026971817017,
+                0.0026349599333755024,
+                0.004293248040862381,
+                -0.6767836930145477,
+                0.7361646948047696
+            ],
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "targetLocation": [
+                0.0,
+                0.0
+            ],
+            "altitude": -5.085382427119974,
+            "direction": 175.0,
+            "speed": 0.0,
+            "battery": {
+                "percentage": 44.0,
+                "charging": false
+            },
+            "tanks": [
+                {
+                    "tankType": "CLEAN",
+                    "percentage": 0.0
+                },
+                {
+                    "tankType": "WASTE",
+                    "percentage": 1.0
+                }
+            ],
+            "command": {
+                "commandIds": [
+                    "d1a252cd-cbb6-404c-8adf-7ae88cd94485"
+                ]
+            },
+            "errorCode": 40000,
+            "cellular": {
+                "operator": "46004",
+                "signal": 96
+            },
+            "wifi": {
+                "interfaceName": "wlx7cdd9061d8e4",
+                "macAddress": "7C:DD:90:61:D8:E4",
+                "connected": true,
+                "auto": true,
+                "mode": "AP",
+                "ssid": "4W4D-WiFi-311",
+                "bssid": "7C:DD:90:61:D8:E4",
+                "signal": 0
+            },
+            "pathLocations": [
+                [
+                    22.57675961829237,
+                    113.94303400809707,
+                    1.0
+                ],
+                [
+                    22.5767594984548,
+                    113.94303595168878,
+                    1.0
+                ],
+                [
+                    22.576759378617215,
+                    113.94303789528048,
+                    0.0
+                ],
+                [
+                    22.576759342855233,
+                    113.94303847528774,
+                    0.0
+                ]
+            ],
+            "details": {
+                "systemStartupTime": 1628501698287
+            },
+            "contexts": [
+                {
+                    "contextType": "SCHEDULING",
+                    "context": "1e7f338a-d8b9-4c08-a1d2-4e9cf4171cf9"
+                },
+                {
+                    "contextType": "COMMAND",
+                    "context": "d1a252cd-cbb6-404c-8adf-7ae88cd94485"
+                }
+            ],
+            "updateTime": 1628501883904,
+            "navigationStateSince": 1628501879393,
+            "simulated": false,
+            "mileage": 170429.0,
+            "volume": 20,
+            "emergencyStopEngaged": false,
+            "jackRaised": false,
+            "softwareVersions": [
+                {
+                    "version": "v3.51.210804",
+                    "softwareType": "NAVIGATION_MAIN"
+                },
+                {
+                    "version": "1.2.1a",
+                    "softwareType": "NAVIGATION_CLOUD_AGENT"
+                }
+            ],
+            "coreVersion": "1.2.1a",
+            "navigationVersion": "v3.51.210804"
+        },
+        "alertTime": 1628501884010,
+        "alertHandleType": "SITE",
+        "threshold": 0.0,
+        "duration": 60194,
+        "count": 0,
+        "errorCode": "0",
+        "message": "执行【卸箱中】超过【1分钟】",
+        "states": [
+            "UNMOUNTING"
+        ],
+        "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+        "hub": {
+            "id": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "万科云城",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "themeBackground": "https://cti-device-resource-store-prod.oss-cn-shanghai.aliyuncs.com/console-web/9e90d7310-959c-4948-bf09-c67e93600848-1625232066962"
+        },
+        "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+        "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+        "building": {
+            "id": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "name": "7栋B座",
+            "mapFileDirectory": "wankeyuncheng_7B"
+        },
+        "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+        "floor": {
+            "id": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "name": "户外",
+            "fullName": "7栋B座/户外",
+            "forbidden": false
+        },
+        "location": [
+            22.576754597064557,
+            113.9430414419131
+        ],
+        "indoorLocation": [
+            170.68893329803498,
+            -26.19689927534902
+        ],
+        "direction": 175.0,
+        "metaData": {
+            "message": "LOAD超时"
+        },
+        "silenced": false,
+        "createdTime": 1628501884636,
+        "lastModifiedTime": 1628501884636,
+        "summary": "执行【卸箱中】超过【1分钟】【0】"
+    },
+    {
+        "id": "d89f80ea-12ec-4a28-b2be-120a469bb39c",
+        "triggerType": "BATTERY",
+        "triggerId": "b02113e9-2975-4d72-88fd-dfc41620916f",
+        "serialNumber": "20210318114934",
+        "entityType": "ROBOT",
+        "entitySeries": "SUNLIGHT",
+        "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+        "entityName": "环卫#311机",
+        "entity": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "环卫#311机",
+            "specification": {
+                "productGroup": "SUNLIGHT",
+                "productLine": "SUNLIGHT_SANITATION",
+                "productCategory": "ROBOT",
+                "productPurposes": [
+                    "GARBAGE",
+                    "SWEEPING"
+                ],
+                "deviceType": "SRST11",
+                "summary": "阳光无人环卫车",
+                "description": "阳光无人环卫车1.1",
+                "robotType": "SRST11",
+                "capacity": 2,
+                "indoor": false,
+                "embedded": false,
+                "chargeable": true,
+                "chargerType": "OUTDOOR",
+                "restorable": true,
+                "restoreDockTypes": [
+                    "WATER"
+                ]
+            },
+            "robotType": "SRST11",
+            "robotSeries": "SUNLIGHT",
+            "macAddress": "78:d0:04:29:48:25",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+        },
+        "status": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "entityType": "ROBOT",
+            "operationStatus": "IDLE",
+            "navigationState": "IDLE",
+            "navigationStateDetail": "IDLE",
+            "navigationStateCode": 0,
+            "localIp": "10.42.0.1",
+            "location": [
+                22.576756980224502,
+                113.94304553208698
+            ],
+            "indoorLocation": [
+                171.1088833098497,
+                -25.93189928942178
+            ],
+            "qianxunLocation": [
+                0.0,
+                0.0
+            ],
+            "coordinates": [
+                171.1088833098497,
+                -25.93189928942178,
+                -5.16822381603117,
+                -0.5148301124572753,
+                -4.967487484047096E-4,
+                0.005246233383895662,
+                -0.25456940955268226,
+                0.9670401470445585
+            ],
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "targetLocation": [
+                0.0,
+                0.0
+            ],
+            "altitude": -5.16822381603117,
+            "direction": 120.0,
+            "speed": 0.0,
+            "battery": {
+                "percentage": 2.0,
+                "charging": false
+            },
+            "tanks": [
+                {
+                    "tankType": "CLEAN",
+                    "percentage": 0.0
+                },
+                {
+                    "tankType": "WASTE",
+                    "percentage": 0.0
+                }
+            ],
+            "command": {
+                "commandIds": []
+            },
+            "errorCode": 8,
+            "cellular": {
+                "operator": "46004",
+                "signal": 80
+            },
+            "wifi": {
+                "interfaceName": "wlx7cdd9061d8e4",
+                "macAddress": "7C:DD:90:61:D8:E4",
+                "connected": true,
+                "auto": true,
+                "mode": "AP",
+                "ssid": "4W4D-WiFi-311",
+                "bssid": "7C:DD:90:61:D8:E4",
+                "signal": 0
+            },
+            "pathLocations": [],
+            "details": {
+                "systemStartupTime": 1628490776289
+            },
+            "contexts": [],
+            "updateTime": 1628496580367,
+            "idleSince": 1628496575352,
+            "navigationStateSince": 1628496579866,
+            "simulated": false,
+            "mileage": 170227.0,
+            "volume": 20,
+            "emergencyStopEngaged": false,
+            "jackRaised": true,
+            "softwareVersions": [
+                {
+                    "version": "v3.51.210804",
+                    "softwareType": "NAVIGATION_MAIN"
+                },
+                {
+                    "version": "1.2.1a",
+                    "softwareType": "NAVIGATION_CLOUD_AGENT"
+                }
+            ],
+            "coreVersion": "1.2.1a",
+            "navigationVersion": "v3.51.210804"
+        },
+        "alertTime": 1628496581366,
+        "alertHandleType": "SITE",
+        "threshold": 2.0,
+        "duration": 0,
+        "count": 0,
+        "errorCode": "0",
+        "message": "电量低于【2.0%】",
+        "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+        "hub": {
+            "id": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "万科云城",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "themeBackground": "https://cti-device-resource-store-prod.oss-cn-shanghai.aliyuncs.com/console-web/9e90d7310-959c-4948-bf09-c67e93600848-1625232066962"
+        },
+        "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+        "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+        "building": {
+            "id": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "name": "7栋B座",
+            "mapFileDirectory": "wankeyuncheng_7B"
+        },
+        "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+        "floor": {
+            "id": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "name": "户外",
+            "fullName": "7栋B座/户外",
+            "forbidden": false
+        },
+        "location": [
+            22.576756980224502,
+            113.94304553208698
+        ],
+        "indoorLocation": [
+            171.1088833098497,
+            -25.93189928942178
+        ],
+        "direction": 120.0,
+        "metaData": {
+            "message": "电量低"
+        },
+        "silenced": false,
+        "createdTime": 1628496581979,
+        "lastModifiedTime": 1628496581979,
+        "summary": "电量低于【2.0%】【0】"
+    },
+    {
+        "id": "e65718ae-02ca-450e-882f-c06feaa28890",
+        "triggerType": "TIMEOUT",
+        "triggerId": "22d701a8-b7b1-4df0-a483-2e586c0c41b7",
+        "serialNumber": "20210422213445",
+        "entityType": "ROBOT",
+        "entitySeries": "SUNLIGHT",
+        "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+        "entityName": "环卫#311机",
+        "entity": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "环卫#311机",
+            "specification": {
+                "productGroup": "SUNLIGHT",
+                "productLine": "SUNLIGHT_SANITATION",
+                "productCategory": "ROBOT",
+                "productPurposes": [
+                    "GARBAGE",
+                    "SWEEPING"
+                ],
+                "deviceType": "SRST11",
+                "summary": "阳光无人环卫车",
+                "description": "阳光无人环卫车1.1",
+                "robotType": "SRST11",
+                "capacity": 2,
+                "indoor": false,
+                "embedded": false,
+                "chargeable": true,
+                "chargerType": "OUTDOOR",
+                "restorable": true,
+                "restoreDockTypes": [
+                    "WATER"
+                ]
+            },
+            "robotType": "SRST11",
+            "robotSeries": "SUNLIGHT",
+            "macAddress": "78:d0:04:29:48:25",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+        },
+        "status": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "entityType": "ROBOT",
+            "operationStatus": "IN_USE",
+            "navigationState": "MANUAL_CONTROL",
+            "navigationStateDetail": "SPACEROAD",
+            "navigationStateCode": 11,
+            "localIp": "10.42.0.1",
+            "location": [
+                22.57677263397022,
+                113.94304181470453
+            ],
+            "indoorLocation": [
+                170.72718679907075,
+                -24.191286391780448
+            ],
+            "qianxunLocation": [
+                0.0,
+                0.0
+            ],
+            "coordinates": [
+                170.72718679907075,
+                -24.191286391780448,
+                -5.090649041749103,
+                -1.684350132942199,
+                -5.586523011833567E-4,
+                0.008648789106485661,
+                -0.7460408357524124,
+                0.6658437938018494
+            ],
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "targetLocation": [
+                0.0,
+                0.0
+            ],
+            "altitude": -5.090649041749103,
+            "direction": 187.0,
+            "speed": 0.0,
+            "battery": {
+                "percentage": 3.0,
+                "charging": false
+            },
+            "tanks": [
+                {
+                    "tankType": "CLEAN",
+                    "percentage": 0.0
+                },
+                {
+                    "tankType": "WASTE",
+                    "percentage": 0.0
+                }
+            ],
+            "command": {
+                "commandIds": [
+                    "93802897-a8e9-404d-8b2a-f16b9e38ccb5"
+                ]
+            },
+            "errorCode": 1900002,
+            "cellular": {
+                "operator": "46004",
+                "signal": 87
+            },
+            "wifi": {
+                "interfaceName": "wlx7cdd9061d8e4",
+                "macAddress": "7C:DD:90:61:D8:E4",
+                "connected": true,
+                "auto": true,
+                "mode": "AP",
+                "ssid": "4W4D-WiFi-311",
+                "bssid": "7C:DD:90:61:D8:E4",
+                "signal": 0
+            },
+            "pathLocations": [
+                [
+                    22.57677256767228,
+                    113.9430418281635,
+                    0.0
+                ],
+                [
+                    22.57677168653699,
+                    113.94304012999609,
+                    0.0
+                ],
+                [
+                    22.576770805401683,
+                    113.94303843182871,
+                    0.0
+                ],
+                [
+                    22.57676992426636,
+                    113.94303673366136,
+                    0.0
+                ],
+                [
+                    22.576769043131023,
+                    113.94303503549403,
+                    0.0
+                ],
+                [
+                    22.57676816199566,
+                    113.94303333732672,
+                    0.0
+                ],
+                [
+                    22.576767280860285,
+                    113.94303163915944,
+                    0.0
+                ],
+                [
+                    22.576766399724885,
+                    113.94302994099219,
+                    0.0
+                ],
+                [
+                    22.576765518589475,
+                    113.94302824282494,
+                    0.0
+                ],
+                [
+                    22.576764637454044,
+                    113.94302654465771,
+                    0.0
+                ],
+                [
+                    22.57676375631859,
+                    113.94302484649052,
+                    0.0
+                ],
+                [
+                    22.576762875183125,
+                    113.94302314832333,
+                    0.0
+                ],
+                [
+                    22.576761994047647,
+                    113.94302145015618,
+                    0.0
+                ],
+                [
+                    22.576761112912138,
+                    113.94301975198904,
+                    0.0
+                ],
+                [
+                    22.576760231776618,
+                    113.94301805382192,
+                    0.0
+                ],
+                [
+                    22.576759350641083,
+                    113.94301635565483,
+                    0.0
+                ],
+                [
+                    22.576758469505524,
+                    113.94301465748775,
+                    0.0
+                ],
+                [
+                    22.57675758836995,
+                    113.94301295932073,
+                    0.0
+                ],
+                [
+                    22.576757366111405,
+                    113.9430125309733,
+                    0.0
+                ],
+                [
+                    22.576757366111405,
+                    113.9430125309733,
+                    0.0
+                ]
+            ],
+            "details": {
+                "systemStartupTime": 1628490776289
+            },
+            "contexts": [
+                {
+                    "contextType": "SCHEDULING",
+                    "context": "94b58b5e-5166-4759-ada9-b26d9d83b61a"
+                },
+                {
+                    "contextType": "COMMAND",
+                    "context": "93802897-a8e9-404d-8b2a-f16b9e38ccb5"
+                }
+            ],
+            "updateTime": 1628496143884,
+            "navigationStateSince": 1628496082174,
+            "simulated": false,
+            "mileage": 170217.0,
+            "volume": 20,
+            "emergencyStopEngaged": false,
+            "jackRaised": true,
+            "softwareVersions": [
+                {
+                    "version": "v3.51.210804",
+                    "softwareType": "NAVIGATION_MAIN"
+                },
+                {
+                    "version": "1.2.1a",
+                    "softwareType": "NAVIGATION_CLOUD_AGENT"
+                }
+            ],
+            "coreVersion": "1.2.1a",
+            "navigationVersion": "v3.51.210804"
+        },
+        "alertTime": 1628496143966,
+        "alertHandleType": "SITE",
+        "threshold": 0.0,
+        "duration": 60077,
+        "count": 0,
+        "errorCode": "0",
+        "message": "执行【卸箱中】超过【1分钟】",
+        "states": [
+            "UNMOUNTING"
+        ],
+        "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+        "hub": {
+            "id": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "万科云城",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "themeBackground": "https://cti-device-resource-store-prod.oss-cn-shanghai.aliyuncs.com/console-web/9e90d7310-959c-4948-bf09-c67e93600848-1625232066962"
+        },
+        "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+        "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+        "building": {
+            "id": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "name": "7栋B座",
+            "mapFileDirectory": "wankeyuncheng_7B"
+        },
+        "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+        "floor": {
+            "id": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "name": "户外",
+            "fullName": "7栋B座/户外",
+            "forbidden": false
+        },
+        "location": [
+            22.57677263397022,
+            113.94304181470453
+        ],
+        "indoorLocation": [
+            170.72718679907075,
+            -24.191286391780448
+        ],
+        "direction": 187.0,
+        "metaData": {
+            "message": "PICK_UP超时"
+        },
+        "silenced": false,
+        "createdTime": 1628496144476,
+        "lastModifiedTime": 1628496144476,
+        "summary": "执行【卸箱中】超过【1分钟】【0】"
+    },
+    {
+        "id": "4554f8df-e05f-4997-9b5c-aee6606722df",
+        "triggerType": "BATTERY",
+        "triggerId": "b02113e9-2975-4d72-88fd-dfc41620916f",
+        "serialNumber": "20210318114934",
+        "entityType": "ROBOT",
+        "entitySeries": "SUNLIGHT",
+        "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+        "entityName": "环卫#311机",
+        "entity": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "环卫#311机",
+            "robotType": "SRST11",
+            "robotSeries": "SUNLIGHT",
+            "macAddress": "78:d0:04:29:48:25",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+        },
+        "status": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "entityType": "ROBOT",
+            "operationStatus": "IDLE",
+            "navigationState": "MANUAL_CONTROL",
+            "navigationStateDetail": "IDLE",
+            "navigationStateCode": 0,
+            "localIp": "10.42.0.1",
+            "location": [
+                22.57676561517788,
+                113.9430122670849
+            ],
+            "indoorLocation": [
+                167.69343457913732,
+                -24.9717740138571
+            ],
+            "qianxunLocation": [
+                0.0,
+                0.0
+            ],
+            "coordinates": [
+                167.69343457913732,
+                -24.9717740138571,
+                -5.034853065050893,
+                -1.5956115722656252,
+                0.01316416920224724,
+                -0.003127656287202917,
+                -0.7158179004339074,
+                0.6981558965114858
+            ],
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "targetLocation": [
+                0.0,
+                0.0
+            ],
+            "altitude": -5.034853065050893,
+            "direction": 181.0,
+            "speed": 0.0,
+            "battery": {
+                "percentage": 9.0,
+                "charging": false
+            },
+            "tanks": [
+                {
+                    "tankType": "CLEAN",
+                    "percentage": 0.0
+                },
+                {
+                    "tankType": "WASTE",
+                    "percentage": 0.0
+                }
+            ],
+            "command": {
+                "commandIds": []
+            },
+            "errorCode": 2,
+            "cellular": {
+                "operator": "46004",
+                "signal": 87
+            },
+            "wifi": {
+                "interfaceName": "wlx7cdd9061d8e4",
+                "macAddress": "7C:DD:90:61:D8:E4",
+                "connected": true,
+                "auto": true,
+                "mode": "AP",
+                "ssid": "4W4D-WiFi-311",
+                "bssid": "7C:DD:90:61:D8:E4",
+                "signal": 0
+            },
+            "pathLocations": [],
+            "details": {
+                "systemStartupTime": 1628490776289
+            },
+            "contexts": [],
+            "updateTime": 1628492979623,
+            "idleSince": 1628489514101,
+            "navigationStateSince": 1628492942027,
+            "simulated": false,
+            "mileage": 170194.0,
+            "volume": 20,
+            "emergencyStopEngaged": false,
+            "jackRaised": true,
+            "softwareVersions": [
+                {
+                    "version": "v3.51.210804",
+                    "softwareType": "NAVIGATION_MAIN"
+                },
+                {
+                    "version": "1.2.1a",
+                    "softwareType": "NAVIGATION_CLOUD_AGENT"
+                }
+            ],
+            "coreVersion": "1.2.1a",
+            "navigationVersion": "v3.51.210804"
+        },
+        "alertTime": 1628492981167,
+        "alertHandleType": "SITE",
+        "threshold": 8.0,
+        "duration": 0,
+        "count": 0,
+        "errorCode": "0",
+        "message": "电量低于【8.0%】",
+        "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+        "hub": {
+            "id": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "万科云城",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "themeBackground": "https://cti-device-resource-store-prod.oss-cn-shanghai.aliyuncs.com/console-web/9e90d7310-959c-4948-bf09-c67e93600848-1625232066962"
+        },
+        "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+        "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+        "building": {
+            "id": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "name": "7栋B座",
+            "mapFileDirectory": "wankeyuncheng_7B"
+        },
+        "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+        "floor": {
+            "id": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "name": "户外",
+            "fullName": "7栋B座/户外",
+            "forbidden": false
+        },
+        "location": [
+            22.57676561517788,
+            113.9430122670849
+        ],
+        "indoorLocation": [
+            167.69343457913732,
+            -24.9717740138571
+        ],
+        "direction": 181.0,
+        "metaData": {
+            "message": "电量低"
+        },
+        "silenced": false,
+        "createdTime": 1628492981761,
+        "lastModifiedTime": 1628492981761,
+        "summary": "电量低于【8.0%】【0】"
+    },
+    {
+        "id": "d9a41982-e892-4a22-a2c8-69410495022b",
+        "triggerType": "SCHEDULING",
+        "triggerId": "d526c00c-60a0-4ad5-93be-a3a706083ea0",
+        "serialNumber": "20210418172434",
+        "entityType": "ROBOT",
+        "entitySeries": "SUNLIGHT",
+        "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+        "entityName": "环卫#311机",
+        "entity": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "环卫#311机",
+            "robotType": "SRST11",
+            "robotSeries": "SUNLIGHT",
+            "macAddress": "78:d0:04:29:48:25",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+        },
+        "entities": [
+            {
+                "entityType": "ROBOT",
+                "entityId": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+                "entityName": "环卫#311机",
+                "entity": {
+                    "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+                    "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+                    "name": "环卫#311机",
+                    "robotType": "SRST11",
+                    "robotSeries": "SUNLIGHT",
+                    "macAddress": "78:d0:04:29:48:25",
+                    "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+                    "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+                    "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f"
+                }
+            },
+            {
+                "entityType": "HIVE",
+                "entityId": "741ff802-2de2-4832-a5b0-2f5bb704bcec",
+                "entityName": "吸尘箱#11",
+                "entity": {
+                    "id": "741ff802-2de2-4832-a5b0-2f5bb704bcec",
+                    "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+                    "name": "吸尘箱#11",
+                    "layoutType": "SCDA12",
+                    "hiveSeries": "CLEANING",
+                    "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+                    "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+                    "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+                    "location": [
+                        22.576767,
+                        113.943011
+                    ],
+                    "indoorLocation": [
+                        167.6,
+                        -24.9
+                    ]
+                }
+            }
+        ],
+        "status": {
+            "id": "f5d6fd36-0892-4bdb-80ce-1b0538374d92",
+            "entityType": "ROBOT",
+            "operationStatus": "IDLE",
+            "navigationState": "FAILED",
+            "navigationStateDetail": "IDLE",
+            "navigationStateCode": 0,
+            "localIp": "10.42.0.1",
+            "location": [
+                22.57675805375305,
+                113.94301217130665
+            ],
+            "indoorLocation": [
+                167.68360988145898,
+                -25.812566224552064
+            ],
+            "qianxunLocation": [
+                0.0,
+                0.0
+            ],
+            "coordinates": [
+                167.68360988145898,
+                -25.812566224552064,
+                -5.123554570703274,
+                -1.6096055507659912,
+                0.01001327836660362,
+                -0.006053318784864025,
+                -0.7206682625899576,
+                0.6931813232362898
+            ],
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "targetLocation": [
+                0.0,
+                0.0
+            ],
+            "altitude": -5.123554570703274,
+            "direction": 182.0,
+            "speed": 0.0,
+            "battery": {
+                "percentage": 17.0,
+                "charging": false
+            },
+            "tanks": [
+                {
+                    "tankType": "CLEAN",
+                    "percentage": 0.0
+                },
+                {
+                    "tankType": "WASTE",
+                    "percentage": 0.0
+                }
+            ],
+            "command": {
+                "commandIds": []
+            },
+            "errorCode": 70004,
+            "cellular": {
+                "operator": "46004",
+                "signal": 100
+            },
+            "wifi": {
+                "interfaceName": "wlx7cdd9061d8e4",
+                "macAddress": "7C:DD:90:61:D8:E4",
+                "connected": true,
+                "auto": true,
+                "mode": "AP",
+                "ssid": "4W4D-WiFi-311",
+                "bssid": "7C:DD:90:61:D8:E4",
+                "signal": 0
+            },
+            "pathLocations": [],
+            "details": {
+                "systemStartupTime": 1628489386286
+            },
+            "contexts": [],
+            "updateTime": 1628489514602,
+            "idleSince": 1628489514101,
+            "navigationStateSince": 1628489514101,
+            "simulated": false,
+            "mileage": 170191.0,
+            "volume": 20,
+            "emergencyStopEngaged": false,
+            "jackRaised": false,
+            "softwareVersions": [
+                {
+                    "version": "v3.51.210804",
+                    "softwareType": "NAVIGATION_MAIN"
+                },
+                {
+                    "version": "1.2.1a",
+                    "softwareType": "NAVIGATION_CLOUD_AGENT"
+                }
+            ],
+            "coreVersion": "1.2.1a",
+            "navigationVersion": "v3.51.210804"
+        },
+        "alertTime": 1628489515763,
+        "alertHandleType": "SITE",
+        "errorCode": "400333001",
+        "message": "装载指令处理失败 (【多装】指令失败次数超限【识别失败：0】)",
+        "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+        "hub": {
+            "id": "e90d7310-959c-4948-bf09-c67e93600848",
+            "name": "万科云城",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "themeBackground": "https://cti-device-resource-store-prod.oss-cn-shanghai.aliyuncs.com/console-web/9e90d7310-959c-4948-bf09-c67e93600848-1625232066962"
+        },
+        "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+        "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+        "building": {
+            "id": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "name": "7栋B座",
+            "mapFileDirectory": "wankeyuncheng_7B"
+        },
+        "floorId": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+        "floor": {
+            "id": "148ac0e5-81fa-4045-8ebe-9488d7ab5c3f",
+            "hubId": "e90d7310-959c-4948-bf09-c67e93600848",
+            "mapBlockId": "19e54bf5-4bda-4883-baa1-fd6a3534f299",
+            "buildingId": "0ad080f8-938f-4cda-8aa1-00727f409964",
+            "name": "户外",
+            "fullName": "7栋B座/户外",
+            "forbidden": false
+        },
+        "location": [
+            22.57675805375305,
+            113.94301217130665
+        ],
+        "indoorLocation": [
+            167.68360988145898,
+            -25.812566224552064
+        ],
+        "direction": 182.0,
+        "silenced": false,
+        "createdTime": 1628489515841,
+        "lastModifiedTime": 1628489515841,
+        "summary": "装载指令处理失败 (【多装】指令失败次数超限【识别失败：0】) 【400333001】"
+    }
+]
